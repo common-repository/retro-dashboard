@@ -1,0 +1,148 @@
+/* vim: set expandtab tabstop=4 shiftwidth=4: */
+/**
+ * Plugin Name: Retro-Dashnoard Admin Theme
+ * Plugin URI: http://wp-swimteam.sourceforge.net/
+ * Description: Retro-Dashboard Admin Theme for your dashboard.
+ * Author: Mike Walsh
+ * Version: 0.5
+ * Author URI: http://mpwalsh8.wordpress.com/
+ */
+
+/**
+ * This CSS file redeclares the supplied Dashboard CSS declarations
+ * to present the dashboard in a fashion that looks somewhat similar
+ * to the Dashboard prior to WP 2.5.
+ *
+ * If Andy Staines' Admin-Menus plugin is installed, it also redeclares
+ * some of the CSS declarations to change the appearance of the admin
+ * menus.  Andy's plugin is at:  http://www.stuff.yellowswordfish.com/
+ */
+
+body {
+	margin: 10px;
+	background-color: #fff;
+	color: #333;
+	border: 0px solid #eeeeee;
+}
+
+#footer {
+	margin-bottom: 10px;
+	background-color: #14568a;
+	clear: both;
+	height: 65px;
+	padding: 10px 0 0 60px;
+	margin: 0;
+	position: relative;
+ 	margin-top: -85px;
+	font-size: 12px;
+	background-image: none;
+}
+
+#admin-menus {
+	display: none;
+	margin-top: 10px;
+	border-color: none;
+	font-weight: bold;
+	vertical-align: middle;
+}
+
+#wpbody {
+	margin: 0px 0px 0px 0px;
+	padding: 5px 5px 5px 5px;
+	border: 1px solid #eeeeee;
+}
+
+div.wrap {
+    padding: 0px 5px 5px 5px;
+    margin: 0px 5px 5px 10px;
+}
+
+.wrap h2 {
+    margin: 0px 0px 10px 0px;
+	color: #333;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", Tahoma, Verdana, sans-serif;
+	font-weight: bold;
+	background: url( images/heading-bg.gif ) repeat-x bottom;
+	border: none;
+}
+
+/**
+ * The following CSS declarations modify the CSS
+ * used by Andy Staines' Admin Menus plugin.
+ *
+ * This changes the color of the text, the font,
+ * and the appearance of the Admin Menu bar.
+ */
+
+div.cmDiv {
+	background-color: #fff;
+    border: 1px solid #fff;
+    font-family: Arial;
+}
+
+.clickMenu li.main {
+	height: 21px;
+	background-color: #fff;
+	border: 1px solid #dcdcdc;
+	padding-top: 3px;
+	padding-bottom: 2px;
+}
+
+.clickMenu li.main:hover
+{
+	height: 21px;
+	z-index: 1 !important;
+	background-color: #e5f3ff !important;
+	color: #14568a !important;
+	padding-top: 3px;
+	padding-bottom: 2px;
+}
+
+li.am-current a
+{
+	font-weight: bold;
+	color: #14568a !important;	
+    padding: 0px;
+}
+
+li.am-item a:hover
+{
+	color: #14568a !important;
+    margin: 0px;
+    padding: 0px;
+}
+
+li.am-item a
+{
+	font-weight: bold;
+	color: #2583AD !important;	
+    margin: 0px;
+    padding: 0px;
+}
+
+ul.am-item {
+	height: 20px;
+	padding: 5px;
+	padding-top: 8px;
+	font-weight: bold;
+	border: 1px solid #14568a;
+	vertical-align: middle;
+}
+
+ul.am-current {
+	height: 20px;
+	padding: 5px;
+	padding-top: 8px;
+	font-weight: bold;
+	border-style: solid;
+	border-color: #14568a;
+	border: 1px solid #14568a;
+	vertical-align: middle;
+}
+
+html>body .innerBox
+{
+	margin: 0;
+	padding: 5px 0px 0px 0px;
+	display: inherit;
+}
